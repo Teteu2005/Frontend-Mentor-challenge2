@@ -1,0 +1,73 @@
+@font-face{
+    font-family: 'MinhaFontItalic';
+    src: url(fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'sla';
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+:root{
+--yellow: hsl(47, 88%, 63%);
+--white: hsl(0, 0%, 100%);
+--grey: hsl(0, 0%, 50%);
+--black: hsl(0, 0%, 7%);
+
+}
+body{
+  background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.div-principal{
+    background-color: var(--white);
+    width: 300px;
+    height: 450px;
+    margin-top: 8%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 10px 10px var(--black);
+}
+.card img{
+    flex: 1;
+    max-width: 90%;
+    margin-top: 15px;
+    margin-left: 16px;
+    border-radius:10px;
+}
+.conteudo{
+    flex: 1;
+    margin-top:10px;
+    display: flex;
+    align-items:baseline;
+    flex-direction: column;
+    font-family: 'MinhaFontItalic', sans-serif;
+
+}
+.conteudo h1{
+    font-size: medium;
+    font-family: 'sla', sans-serif;
+}
+.conteudo button{
+    margin-left: 15px;
+    background-color: var(--yellow);
+    border: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.legenda{
+    margin-left: 10px;
+}
+.test{
+    background-color: var(--black);
+    display: none;
+
+}
+.test2{
+    display: block;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cartão de vizualização</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+</head>
+<body>
+    <div class="div-principal">
+        <div class="card">
+            <img src="images/illustration-article.svg" alt="imagem ilustração">
+        </div>
+        <div class="conteudo">
+            <button>Learning</button>
+            <p>Published 21 Dec 2023</p>
+            <h1>HTML & CSS foundations</h1>
+            <p> These languages are the backbones of every website, defining structures, content and presentation </p>
+
+            <div class="container">
+                <div class="bola"> 
+                <img src="images/image-avatar.webp" alt="foto de uma pessoa"> 
+             </div>
+             <div class="legenda">Matheus Arcangelli</div>  
+            </div>
+           
+        </div>
+    </div>
+   
+    <div id="teste" class="test">conteudo...</div> 
+    <button onclick="mostrarMenu()">mostrar div test</button>
+</body>
+<script>
+    var test = document.getElementById('teste')
+
+    function mostrarMenu(){
+    test.classList.toggle('test2')
+        
+    }
+</script>
+</html>
